@@ -1,0 +1,33 @@
+@import "vars";
+@import "reset";
+@import "mixins";
+
+
+/* Default styles */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-width: 32rem;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $black;
+}
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/main";
+@import "blocks/tabs";
+@import "blocks/footer";
+
+
+/* Vendor libs */
+@import "vendor/slick";
