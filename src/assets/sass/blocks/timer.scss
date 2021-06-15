@@ -1,0 +1,38 @@
+.promotion__timer {
+    text-align: center;
+}
+
+.promotion__timer-title {
+    display: block;
+    margin-bottom: 5rem;
+
+    font-size: 2.5rem;
+
+    text-decoration: underline;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__block {
+    width: 10rem;
+    height: 120px;
+    margin: 0 2rem 2rem;
+
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0,  25);
+
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.timer__block span {
+    display: block;
+
+    font-size: 5rem;
+
+}
