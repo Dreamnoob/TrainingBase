@@ -60,3 +60,4 @@ function setClock(selector, endtime) {
 }
 
 setClock('.timer', deadline);
+

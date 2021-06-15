@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //= components/tabs.js
     //= components/timer.js
+    //= components/modal.js
 
 });
 
