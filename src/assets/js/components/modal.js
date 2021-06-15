@@ -6,6 +6,7 @@ function showModal() {
     modal.classList.add('show');
     modal.classList.remove('hide');
     document.body.style.overflow = 'hidden';
+    clearTimeout(timerId);
 }
 
 function closeModal() {
@@ -29,3 +30,14 @@ document.addEventListener('keydown', (e) => {
         closeModal();
     } 
 });
+
+const timerId = setTimeout(showModal, 4000);
+
+function showModalByScroll() {
+    if(window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight){
+        showModal();
+        window.removeEventListener('scroll', showModalByScroll);
+    }
+}
+
+window.addEventListener('scroll', showModalByScroll);
