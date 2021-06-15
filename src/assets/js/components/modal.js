@@ -31,7 +31,7 @@ document.addEventListener('keydown', (e) => {
     } 
 });
 
-const timerId = setTimeout(showModal, 4000);
+// const timerId = setTimeout(showModal, 4000);  
 
 function showModalByScroll() {
     if(window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight){
@@ -40,4 +40,4 @@ function showModalByScroll() {
     }
 }
 
-window.addEventListener('scroll', showModalByScroll);
+// window.addEventListener('scroll', showModalByScroll);
