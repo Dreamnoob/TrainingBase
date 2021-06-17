@@ -1,5 +1,3 @@
-//= ../../../node_modules/slick-carousel/slick/slick.js
-
 "use strict";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -9,6 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //= components/modal.js
     //= components/menu.js
 
+
+    const timer = document.querySelector('.timer');
+    const timerClone = timer.cloneNode();
+
+    const menu = document.querySelector('.menu');
+    console.log(timerClone);
 });
 
 
